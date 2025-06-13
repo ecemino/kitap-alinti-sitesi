@@ -1,0 +1,17 @@
+CREATE TABLE users(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    alias VARCHAR(20) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE quotes(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    book_title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    user_id INT NOT NULL,
+    quote TEXT NOT NULL,
+    comment TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE
+);
