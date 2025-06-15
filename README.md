@@ -6,14 +6,20 @@ Bu web uygulaması, kullanıcıların okudukları kitaplardan alıntılar ekleyi
 
 - 👤 Kullanıcı Kaydı ve Girişi
 ![](images/register.png)
+
 - 📝 Alıntı Ekleme (Kitap adı, yazar, alıntı ve yorum)
 ![](images/add_quote.png)
+
 - 📋 Alıntıları Listeleme (Giriş yapan kullanıcıya özel)
 ![](images/dashboard.png)
+
 - ✏️ Alıntıları Düzenleme
 ![](images/edit_quote.png)
+
 - 🗑️ Alıntı Silme
 ![](images/delete_quote.png)
+
+---
 
 ## 🛠️ Locahost'ta Çalıştırmak için:
 
@@ -25,7 +31,7 @@ Bu web uygulaması, kullanıcıların okudukları kitaplardan alıntılar ekleyi
 5. localhost/kitap_alintilari/register.php adresinden siteye erişim sağlayabilirsiniz.
 
 ---
-[YouTube kullanım videosunu izlemek için tıklayın.](https://youtu.be/UsPw3P8S-g8)
+[YouTube uygulama videosunu izlemek için tıklayın.](https://youtu.be/UsPw3P8S-g8)
 
 
 
